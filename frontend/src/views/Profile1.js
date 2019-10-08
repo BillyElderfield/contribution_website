@@ -43,9 +43,7 @@ export default function Profile(props){
     }, []);
 
     function renderButtons(){
-      console.log(contributions)
-      //if(profileRef.toLowerCase() === user.profileRef.toLowerCase()){
-        if(true){
+      if(profileRef.toLowerCase() === user.profileRef.toLowerCase()){
         return(
           <div id="profileButtons">
             <ProfileButton text="Create New Contribution" href="/CreateContribution"/>
