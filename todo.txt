@@ -1,0 +1,14 @@
+manage profile:
+change username
+delete account
+change password
+follow:
+database
+frontend
+
+have register gen hashed value for profileRef based on created and username
+add custom profileRef
+
+Have cors domain whitelist
+use arr dest
+port to using hooks
